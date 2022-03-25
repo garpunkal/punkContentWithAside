@@ -19,7 +19,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Content Include="App_Plugins\punkcontentwithaside\**\*.*">
+		<Content Include="App_Plugins\punkContentWithAside2\**\*.*">
 			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
 			<CopyToPublishDirectory>Always</CopyToPublishDirectory>
 		</Content>
@@ -34,7 +34,7 @@
 		<None Include="..\logo.png" Pack="true" PackagePath="" />
 	</ItemGroup>
 	<ItemGroup>
-		<Folder Include="App_Plugins\punkcontentwithaside\" />
+		<Folder Include="App_Plugins\punkContentWithAside2\" />
 		<Folder Include="build\" />
 	</ItemGroup>
 </Project>  
