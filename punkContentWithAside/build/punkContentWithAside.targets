@@ -1,0 +1,28 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <PunkContentWithAsideContentFilesPath>$(MSBuildThisFileDirectory)..\App_Plugins\punkcontentwithaside\**\*.*</PunkContentWithAsideContentFilesPath>
+    </PropertyGroup>
+
+    <Target Name="CopyPunkContentWithAsideAssets" BeforeTargets="Build">
+        <ItemGroup>
+            <PunkContentWithAsideContentFiles Include="$(PunkContentWithAsideContentFilesPath)" />
+        </ItemGroup>
+        <Message Text="Copying punkContentWithAside files: $(PunkContentWithAsideContentFilesPath) - #@(PunkContentWithAsideContentFiles->Count()) files"  Importance="high" />
+        <Copy
+            SourceFiles="@(PunkContentWithAsideContentFiles)"
+            DestinationFiles="@(PunkContentWithAsideContentFiles->'$(MSBuildProjectDirectory)\App_Plugins\punkcontentwithaside\%(RecursiveDir)%(Filename)%(Extension)')"
+            SkipUnchangedFiles="true" />
+
+    </Target>
+
+    <Target Name="ClearPunkContentWithAsideAssets" BeforeTargets="Clean">
+        <ItemGroup>
+            <PunkContentWithAsideDir Include="$(MSBuildProjectDirectory)\App_Plugins\punkcontentwithaside\" />
+        </ItemGroup>
+        <Message Text="Clear old punkContentWithAside data"  Importance="high" />
+        <RemoveDir Directories="@(PunkContentWithAsideDir)"  />
+    </Target>
+
+</Project>
+ 
