@@ -7,7 +7,7 @@
 		<PackageId>punkContentWithAside</PackageId>
 		<Title>punkContentWithAside</Title>
 		<Description>An app_plugin for Umbraco that allows you to view a Block List in two columns.</Description>
-		<PackageTags>umbraco plugin package</PackageTags>
+		<PackageTags>umbraco-marketplace</PackageTags>
 		<RootNamespace>punkContentWithAside</RootNamespace>
 		<Authors>Gareth Wright</Authors>
 		<PackageProjectUrl>https://github.com/garpunkal/punkContentWithAside</PackageProjectUrl>
