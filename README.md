@@ -23,7 +23,7 @@ https://www.nuget.org/packages/punkContentWithAside/
 
 ## Compatibility
 
-- Umbraco 9 with Block List Editor.
+- Umbraco 10+ with Block List Editor.
 
 ## Screenshots
  
