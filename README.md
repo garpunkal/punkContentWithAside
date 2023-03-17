@@ -1,6 +1,8 @@
-# Content With Aside
+# punkContentWithAside
 
-An app_plugin for Umbraco that allows you to view a Block List in two columns.
+[![NuGet release](https://img.shields.io/nuget/v/punkContentWithAside.svg)](https://www.nuget.org/packages/punkContentWithAside/)
+
+A package that allows you to view a Block List in two columns.
 
 ## Credits  
 

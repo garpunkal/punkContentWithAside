@@ -1,5 +1,31 @@
 {
+  "Title": "punkContentWithAside",
+  "Description": "A package that allows you to view a Block List in two columns.",
   "Category": "Editor Tools",
+  "Tags": [ "Block List" ],
   "LicenseTypes": [ "Free" ],
-  "PackageType": "Package"
+  "PackageType": "Package", 
+  "AuthorDetails": {
+    "Name": "Gareth Wright",
+    "Url": "https://garpunkal.dev",
+    "ImageUrl": "https://github.com/garpunkal.png",
+    "SyncContributorsFromRepository": true
+  },
+  "DocumentationUrl": "https://github.com/garpunkal/punkContentWithAside",
+  "IssueTrackerUrl": "https://github.com/garpunkal/punkContentWithAside/issues",
+  "Screenshots": [
+    {
+      "ImageUrl": "https://raw.github.com/garpunkal/punkContentWithAside/main/blocklisteditor.png",
+      "Caption": "Property Editor"
+    },
+    {
+      "ImageUrl": "https://raw.github.com/garpunkal/punkContentWithAside/main/component_edit_1.png",
+      "Caption": "Component Edit in the Block List Editor datatype"
+    },
+    {
+      "ImageUrl": "https://raw.github.com/garpunkal/punkContentWithAside/main/component_edit_2.png",
+      "Caption": "Ensure you force hide content editor "
+    }
+  ]
 }
+
